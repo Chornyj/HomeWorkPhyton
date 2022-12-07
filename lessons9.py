@@ -16,8 +16,10 @@ def my_sort1(data):
 
 '''
         
-data = [random.randint(1,1000) for _ in range(10000)]
-#print(my_sort1(data))
+
+data = [random.randint(1,1000) for _ in range(10000)]
+#print(
+my_sort1(data))
 
 data.my_sort1(1000)
 '''
@@ -31,12 +33,12 @@ def mysort2(data):
             left.append(element)
         if element==center_element:
             middle.append(element)
-         if element>center_element:
-            right.append(element)
+        #if element>center_element:
+          #  right.append(element)
 
     return mysort2(left) + middle + mysort2(right)
         
-data= [random.randint(1,1000)) for _ in range(10000)]
+data= [random.randint(1,1000) for _ in range(10000)]
 
 start = datatime.now()
 my_sort1(data)
